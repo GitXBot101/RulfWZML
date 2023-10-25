@@ -81,13 +81,13 @@ SYS_STATS = '''<b><i>🧩 OS SYSTEM </i></b>
 ┠ <b>Total Core(s) :</b> {total_core}
 ┖ <b>Usable CPU(s) :</b> {cpu_use}
     '''
-    REPO_STATS = '''<b>📊 <u>𝙍𝙚𝙥𝙤 𝙎𝙩𝙖𝙩𝙞𝙨𝙩𝙞𝙘𝙨</u></b>
+    REPO_STATS = '''📊 <b><i>REPO STATISTICS :</i></b>
 ┠ <b>Bot Updated :</b> {last_commit}
 ┠ <b>Current Version :</b> {bot_version}
 ┠ <b>Latest Version :</b> {lat_version}
 ┖ <b>Last ChangeLog :</b> {commit_details}
 
-<b>🍎 REMARKS :</b> <code>{remarks}</code>
+🕸️ <b>REMARKS :</b> <code>{remarks}</code>
     '''
     BOT_LIMITS = '''<b><i>BOT LIMITATIONS 🚧</i></b>
 ┠<b>🎯 Direct :</b> <code>{DL} GB</code>
