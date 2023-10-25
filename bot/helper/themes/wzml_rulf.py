@@ -3,11 +3,14 @@ class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
     ST_BN1_NAME = '👨‍💻 OWNER 👨‍💻'
-    ST_BN1_URL = '@cmd_rulf'
+    ST_BN1_URL = 'https://t.me/cmd_rulf'
     ST_BN2_NAME = '🎲 ENCODER 🎲'
     ST_BN2_URL = 'https://t.me/+2DSmixSyvzU4ZGUy'
-    ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
-<b>Type {help_command} to get a list of available commands</b>'''
+    ST_MSG = '''This bot can Leech all your links|files|torrents to Telegram 📥.
+                <b>Type /help to get a list of available commands and Supports</b>
+                
+                ➥ 🦊 DevS : @WZML_X
+             '''
     ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ....⚡️</i>'''
     ST_UNAUTH = '''<i>You Are not authorized user! 💔 \nDeploy your own WZML-X Mirror-Leech bot</i>'''
     OWN_TOKEN_GENERATE = '''<b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i>'''
@@ -78,13 +81,13 @@ class WZMLStyle:
 ┠ <b>Total Core(s) :</b> {total_core}
 ┖ <b>Usable CPU(s) :</b> {cpu_use}
     '''
-    REPO_STATS = '''⌬ <b><i>REPO STATISTICS :</i></b>
+    REPO_STATS = '''📊 <b><i>REPO STATISTICS :</i></b>
 ┠ <b>Bot Updated :</b> {last_commit}
 ┠ <b>Current Version :</b> {bot_version}
 ┠ <b>Latest Version :</b> {lat_version}
 ┖ <b>Last ChangeLog :</b> {commit_details}
 
-🕸️ <b>REMARKS :</b> <code>{remarks}</code>
+🧬 <b>REMARKS :</b> <code>{remarks}</code>
     '''
     BOT_LIMITS = '''<b><i>BOT LIMITATIONS 🚧</i></b>
 ┠<b>🎯 Direct :</b> <code>{DL} GB</code>
