@@ -81,7 +81,7 @@ SYS_STATS = '''<b><i>🧩 OS SYSTEM </i></b>
 ┠ <b>Total Core(s) :</b> {total_core}
 ┖ <b>Usable CPU(s) :</b> {cpu_use}
     '''
-    REPO_STATS = '''🎗️<b><i> REPO STATISTICS </i></b>
+    REPO_STATS = '''<b>📊 <u>𝙍𝙚𝙥𝙤 𝙎𝙩𝙖𝙩𝙞𝙨𝙩𝙞𝙘𝙨</u></b>
 ┠ <b>Bot Updated :</b> {last_commit}
 ┠ <b>Current Version :</b> {bot_version}
 ┠ <b>Latest Version :</b> {lat_version}
