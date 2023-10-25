@@ -2,14 +2,13 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = '👨‍💻 OWNER 👨‍💻'
+    ST_BN1_NAME = '👨‍💻 OWNER'
     ST_BN1_URL = 'https://t.me/cmd_rulf'
-    ST_BN2_NAME = '🎲 ENCODER 🎲'
+    ST_BN2_NAME = '🎲 ENCODER'
     ST_BN2_URL = 'https://t.me/+2DSmixSyvzU4ZGUy'
     ST_MSG = '''This bot can Leech all your links|files|torrents to Telegram 📥.
-                <b>Type /help to get a list of available commands and Supports</b>
-                
-                ➥ 🦊 DevS : @WZML_X
+    <b>Type /help to get a list of available commands and Supports</b>
+    ➥ 🦊 DevS : @WZML_X
              '''
     ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ....⚡️</i>'''
     ST_UNAUTH = '''<i>You Are not authorized user! 💔 \nDeploy your own WZML-X Mirror-Leech bot</i>'''
@@ -39,8 +38,8 @@ class WZMLStyle:
     USER_BT = 'Users 👥'
     MICS_BT = 'Mics 🎥'
     O_S_BT = 'Owner & Sudos 🔐'
-    CLOSE_BT = 'Close'
-    HELP_HEADER = "<b><i>✨ Help Guide Menu ✨</i></b>\n\n<b>NOTE: <i>Click on any CMD to see more minor detalis.</i></b>"
+    CLOSE_BT = 'Close ❌'
+    HELP_HEADER = "<b>✨ Help Guide Menu ✨</b>\n\n<b>NOTE: <i>Click on any CMD to see more minor detalis.</i></b>"
 
     # async def stats(client, message):
     BOT_STATS = '''<b><i>BOT STATISTICS 🧮</i></b> \n
@@ -121,15 +120,15 @@ class WZMLStyle:
 
     # async def ping(client, message): ---> __main__.py
     PING = '<i>Starting Ping...🌋</i>'
-    PING_VALUE = '<b>🎯 Pɪɴɢ :- </b><code>{value} ms..</code>'
+    PING_VALUE = '<b>🎯 Pɪɴɢ: </b><code>{value} ms..</code>'
     # ---------------------
 
     # async def onDownloadStart(self): --> tasks_listener.py
     LINKS_START = """<b>Task Started...⛓️</b>
 ┠ <b>💠 Mode:</b> {Mode}
-┖ <b>👤 User: </b> {Tag}\n\n"""
-    LINKS_SOURCE = """➲ <b>🗿 Source:</b>
-┖ <b>⏰ Time:</b> {On}
+┠ <b>👤 User: </b> {Tag}\n"""
+┠ <b>⏰ Time:</b> {On}
+LINKS_SOURCE = """┖ <b>🗿 Source:</b>
 ------------------------------------------
 {Source}
 ------------------------------------------\n\n"""
@@ -142,12 +141,10 @@ class WZMLStyle:
     NAME =                  '┏<b>🏷️ Name:</b> <code>{Name}</code>\n'
     SIZE =                  '┠<b>💾 Size: </b>{Size}\n'
     ELAPSE =                '┠<b>⌛ Elapsed: </b>{Time}\n'
-    MODE =                  '┠<b>💠 Mode: </b>{Mode}\n'
 
     # ----- LEECH -------
     L_TOTAL_FILES =         '┠<b>📂 Total Files: </b>{Files}\n'
     L_CORRUPTED_FILES =     '┠<b>💀 Corrupted Files: </b>{Corrupt}\n'
-    L_CC =                  '┖<b>👤 User: </b>{Tag}\n\n'
     PM_BOT_MSG =            '🎗️ <b><i>File(s) have been Sent above</i></b>'
     L_BOT_MSG =             '🔒 <b><i>File(s) have been Sent to Bot PM (Private)</i></b>'
     L_LL_MSG =              '📎 <b><i>File(s) have been Sent. Access via Links...</i></b>\n'
@@ -176,8 +173,8 @@ class WZMLStyle:
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS =            '\n<b>Status: <a href="{Url}">{Status}</a></b>'
-    STATUS_NAME =       '┏<b>🏷️ Name:</b> <code>{Name}</code>'
+    STATUS =            '<b><a href="{Url}">{Status}</a></b>'
+    STATUS_NAME =       '\n┏<b>🏷️ Name:</b> <code>{Name}</code>'
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┃ {Bar}'
@@ -213,9 +210,9 @@ class WZMLStyle:
     TASKS =  '┠ <b>Tasks:</b> {Tasks}\n'
     BOT_TASKS = '┠ <b>Tasks:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
     Cpu = '┠ <b>🖥️ CPU:</b> {cpu}% | '
-    FREE =                      '<b>💿 FREE:</b> {free} [{free_p}%]'
+    FREE =                      '<b>💿 FREE:</b> {free_p}%'
     Ram = '\n┠ <b>🎮 RAM:</b> {ram}% | '
-    uptime =                     '<b>🚀 UPTIME:</b> {uptime}'
+    uptime =                     '<b>🚀UPTIME:</b> {uptime}'
     DL = '\n┖ <b>🔻 DL:</b> {DL}/s | '
     UL =                        '<b>🔺 UL:</b> {UL}/s'
 
@@ -249,8 +246,8 @@ class WZMLStyle:
     NO_ACTIVE_DL = '''<i>No Active Downloads! 🗑️</i>
     
 ⌬ <b><i>Bot Stats</i></b>
-┠ <b>🖥️ CPU:</b> {cpu}% | <b>💿 FREE:</b> {free} [{free_p}%]
-┖ <b>🎮 RAM:</b> {ram} | <b>🚀 UPTIME:</b> {uptime}
+┠ <b>🖥️ CPU:</b> {cpu}% | <b>💿 FREE:</b> {free_p}%
+┖ <b>🎮 RAM:</b> {ram} | <b>🚀UPTIME:</b> {uptime}
     '''
     # ---------------------
 
@@ -268,35 +265,35 @@ class WZMLStyle:
 
     UNIVERSAL = '''🌐 <b><u>Universal Settings : {NAME}</u></b>
 
-┎<b>📺 YT-DLP Options :</b> <b><code>{YT}</code></b>
-┠<b>🚧 Daily Tasks :</b> <code>{DT}</code> per day
-┠<b>🚦 Last Used :</b> <code>{LAST_USED}</code>
-┠<b>🛸U.Session :</b> <code>{USESS}</code>
-┠<b>📜 MediaInfo :</b> <code>{MEDIAINFO}</code>
-┠<b>📩 Save Mode :</b> <code>{SAVE_MODE}</code>
-┖<b>🕵️ Bot PM :</b> <code>{BOT_PM}</code>'''
+┎<b> YT-DLP Options :</b> <b><code>{YT}</code></b>
+┠<b> Daily Tasks :</b> <code>{DT}</code> per day
+┠<b> Last Bot Used :</b> <code>{LAST_USED}</code>
+┠<b> User Session :</b> <code>{USESS}</code>
+┠<b> MediaInfo Mode :</b> <code>{MEDIAINFO}</code>
+┠<b> Save Mode :</b> <code>{SAVE_MODE}</code>
+┖<b> User Bot PM :</b> <code>{BOT_PM}</code>'''
 
     MIRROR = '''⚜️ <b><u>Mirror/Clone Settings : {NAME}</u></b>
 
-┏<b>☁️ Daily Mirror :</b> <code>{DM}</code> per day</i>
-┠<b>Ⓟ Prefix :</b> <code>{MPREFIX}</code>
-┠<b>Ⓢ Suffix :</b> <code>{MSUFFIX}</code>
-┠<b>🌈 Remname :</b> <code>{MREMNAME}</code>
-┠<b>🧿 DDL Server(s) :</b> <code>{DDL_SERVER}</code>
-┠<b>🎀 RClone :</b> <code>{RCLONE}</code>
-┠<b>📮 User TD :</b> <code>{TMODE}</code>
-┗<b>📝 TD Info:</b> <code>{USERTD}</code>'''
+┎<b> RClone Config :</b> <i>{RCLONE}</i>
+┠<b> Mirror Prefix :</b> <code>{MPREFIX}</code>
+┠<b> Mirror Suffix :</b> <code>{MSUFFIX}</code>
+┠<b> Mirror Remname :</b> <code>{MREMNAME}</code>
+┠<b> DDL Server(s) :</b> <i>{DDL_SERVER}</i>
+┠<b> User TD Mode :</b> <i>{TMODE}</i>
+┠<b> Total User TD(s) :</b> <i>{USERTD}</i>
+┖<b> Daily Mirror :</b> <code>{DM}</code> per day'''
 
     LEECH = '''🧲 <b><u>Leech Settings for {NAME}</u></b>
 
-┏<b>📂 Daily Leech  : </b><code>{DL}</code> per day
-┠<b>⚙️ Leech Type :</b> <code>{LTYPE}</code>
-┠<b>🖼️ Thumbnail :</b> <code>{THUMB}</code>
-┠<b>♈ Split Size :</b> <code>{SPLIT_SIZE}</code>
-┠<b>♐ Equal Splits :</b> <code>{EQUAL_SPLIT}</code>
-┠<b>♒ Media Group :</b> <code>{MEDIA_GROUP}</code>
-┠<b>📄 Caption :</b> <code>{LCAPTION}</code>
-┠<b>Ⓟ Prefix :</b> <code>{LPREFIX}</code>
-┠<b>Ⓢ Suffix :</b> <code>{LSUFFIX}</code>
-┠<b>📦 Dump :</b> <code>{LDUMP}</code>
-┗<b>🌈 Remname :</b> <code>{LREMNAME}</code>'''
+┎<b> Daily Leech : </b><code>{DL}</code> per day
+┠<b> Leech Type :</b> <i>{LTYPE}</i>
+┠<b> Custom Thumbnail :</b> <i>{THUMB}</i>
+┠<b> Leech Split Size :</b> <code>{SPLIT_SIZE}</code>
+┠<b> Equal Splits :</b> <i>{EQUAL_SPLIT}</i>
+┠<b> Media Group :</b> <i>{MEDIA_GROUP}</i>
+┠<b> Leech Caption :</b> <code>{LCAPTION}</code>
+┠<b> Leech Prefix :</b> <code>{LPREFIX}</code>
+┠<b> Leech Suffix :</b> <code>{LSUFFIX}</code>
+┠<b> Leech Dumps :</b> <code>{LDUMP}</code>
+┖<b> Leech Remname :</b> <code>{LREMNAME}</code>'''
