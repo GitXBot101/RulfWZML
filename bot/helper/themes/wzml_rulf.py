@@ -6,7 +6,10 @@ class WZMLStyle:
     ST_BN1_URL = '@cmd_rulf'
     ST_BN2_NAME = '🎲 ENCODER 🎲'
     ST_BN2_URL = 'https://t.me/+2DSmixSyvzU4ZGUy'
-    ST_MSG = '''This bot can Leech all your links|files|torrents to Telegram 📥.\n<b>Type /help to get a list of available commands and Supports</b>\n\n ➥ 🦊 DevS : @WZML_X
+    ST_MSG = '''This bot can Leech all your links|files|torrents to Telegram 📥.
+                <b>Type /help to get a list of available commands and Supports</b>
+                
+                ➥ 🦊 DevS : @WZML_X
 '''
     ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ....⚡️</i>'''
     ST_UNAUTH = '''<i>You Are not authorized user! 💔 \nDeploy your own WZML-X Mirror-Leech bot</i>'''
@@ -32,16 +35,16 @@ class WZMLStyle:
     WEB_PASTE_BT = '📨 Web Paste (SB)'
     # ---------------------
     # async def bot_help(client, message): ---> __main__.py
-    BASIC_BT = 'Basic'
-    USER_BT = 'Users'
-    MICS_BT = 'Mics'
-    O_S_BT = 'Owner & Sudos'
+    BASIC_BT = 'Basic 🗞'
+    USER_BT = 'Users 👥'
+    MICS_BT = 'Mics 🎥'
+    O_S_BT = 'Owner & Sudos 🔐'
     CLOSE_BT = 'Close'
-    HELP_HEADER = "<b><i>💫 Help Guide Menu 💫</i></b>\n\n<b>NOTE: <i>Click on any CMD to see more minor detalis.</i></b>"
+    HELP_HEADER = "<b><i>✨ Help Guide Menu ✨</i></b>\n\n<b>NOTE: <i>Click on any CMD to see more minor detalis.</i></b>"
 
     # async def stats(client, message):
     BOT_STATS = '''<b><i>BOT STATISTICS 🧮</i></b> \n
-┖ <b>⏰ Bot Uptime :</b> {bot_uptime}
+<b>⏰ Bot Uptime :</b> {bot_uptime}
 
 ┎ <b><i>🎮 RAM ( MEMORY )</i></b>
 ┃ {ram_bar} {ram}%
@@ -58,19 +61,19 @@ class WZMLStyle:
 ┖ <b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}
     
     '''
-    SYS_STATS = '''<b><i>🧩 OS SYSTEM </i></b>
+SYS_STATS = '''<b><i>🧩 OS SYSTEM </i></b>
 ┠ <b>OS Uptime :</b> {os_uptime}
 ┠ <b>OS Version :</b> {os_version}
 ┖ <b>OS Arch :</b> {os_arch}
 
-⌬ <b><i>🛰️ NETWORK STATISTICS </i></b>
+<b><i>🛰️ NETWORK STATISTICS </i></b>
 ┠ <b>🔺 Upload Data:</b> {up_data}
 ┠ <b>🔻 Download Data:</b> {dl_data}
 ┠ <b>Pkts Sent:</b> {pkt_sent}k
 ┠ <b>Pkts Received:</b> {pkt_recv}k
 ┖ <b>Total I/O Data:</b> {tl_data}
 
-┎ <b>🖥 CPU </b>
+┎<i><b>🖥 CPU </b></i>
 ┃ {cpu_bar} {cpu}%
 ┠ <b>CPU Frequency :</b> {cpu_freq}
 ┠ <b>System Avg Load :</b> {sys_load}
@@ -86,7 +89,7 @@ class WZMLStyle:
 
 <b>🍎 REMARKS :</b> <code>{remarks}</code>
     '''
-    BOT_LIMITS = '''🚧 <b><i>BOT LIMITATIONS :</i></b>
+    BOT_LIMITS = '''<b><i>BOT LIMITATIONS 🚧</i></b>
 ┠<b>🎯 Direct :</b> <code>{DL} GB</code>
 ┠<b>🧲 Torrent :</b> <code>{TL} GB</code>
 ┠<b>☁️ GDrive :</b> <code>{GL} GB</code>
@@ -117,45 +120,45 @@ class WZMLStyle:
     # ---------------------
 
     # async def ping(client, message): ---> __main__.py
-    PING = '<i>Starting Ping..</i>'
-    PING_VALUE = '<b>Pong</b>\n<code>{value} ms..</code>'
+    PING = '<i>Starting Ping...🌋</i>'
+    PING_VALUE = '<b>🎯 Pɪɴɢ :- </b><code>{value} ms..</code>'
     # ---------------------
 
     # async def onDownloadStart(self): --> tasks_listener.py
-    LINKS_START = """<b><i>Task Started</i></b>
-┠ <b>Mode:</b> {Mode}
-┖ <b>By:</b> {Tag}\n\n"""
-    LINKS_SOURCE = """➲ <b>Source:</b>
-┖ <b>Added On:</b> {On}
+    LINKS_START = """<b>Task Started...⛓️</b>
+┠ <b>💠 Mode:</b> {Mode}
+┖ <b>👤 User: </b> {Tag}\n\n"""
+    LINKS_SOURCE = """➲ <b>🗿 Source:</b>
+┖ <b>⏰ Time:</b> {On}
 ------------------------------------------
 {Source}
 ------------------------------------------\n\n"""
     
     # async def __msg_to_reply(self): ---> pyrogramEngine.py
-    PM_START =            "➲ <b><u>Task Started :</u></b>\n┃\n┖ <b>Link:</b> <a href='{msg_link}'>Click Here</a>"
-    L_LOG_START =           "➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
+    PM_START =            "<code>Task Started...⛓️</code>\n┃\n┖ <b>Link:</b> <a href='{msg_link}'>Click Here</a>"
+    L_LOG_START =           "🧲 <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
-    NAME =                  '<b><i>{Name}</i></b>\n┃\n'
-    SIZE =                  '┠ <b>Size: </b>{Size}\n'
-    ELAPSE =                '┠ <b>Elapsed: </b>{Time}\n'
-    MODE =                  '┠ <b>Mode: </b>{Mode}\n'
+    NAME =                  '┏<b>🏷️ Name:</b> <code>{Name}</code>\n'
+    SIZE =                  '┠<b>💾 Size: </b>{Size}\n'
+    ELAPSE =                '┠<b>⌛ Elapsed: </b>{Time}\n'
+    MODE =                  '┠<b>💠 Mode: </b>{Mode}\n'
 
     # ----- LEECH -------
-    L_TOTAL_FILES =         '┠ <b>Total Files: </b>{Files}\n'
-    L_CORRUPTED_FILES =     '┠ <b>Corrupted Files: </b>{Corrupt}\n'
-    L_CC =                  '┖ <b>By: </b>{Tag}\n\n'
-    PM_BOT_MSG =            '➲ <b><i>File(s) have been Sent above</i></b>'
-    L_BOT_MSG =             '➲ <b><i>File(s) have been Sent to Bot PM (Private)</i></b>'
-    L_LL_MSG =              '➲ <b><i>File(s) have been Sent. Access via Links...</i></b>\n'
+    L_TOTAL_FILES =         '┠<b>📂 Total Files: </b>{Files}\n'
+    L_CORRUPTED_FILES =     '┠<b>💀 Corrupted Files: </b>{Corrupt}\n'
+    L_CC =                  '┖<b>👤 User: </b>{Tag}\n\n'
+    PM_BOT_MSG =            '🎗️ <b><i>File(s) have been Sent above</i></b>'
+    L_BOT_MSG =             '🔒 <b><i>File(s) have been Sent to Bot PM (Private)</i></b>'
+    L_LL_MSG =              '📎 <b><i>File(s) have been Sent. Access via Links...</i></b>\n'
     
     # ----- MIRROR -------
-    M_TYPE =                '┠ <b>Type: </b>{Mimetype}\n'
-    M_SUBFOLD =             '┠ <b>SubFolders: </b>{Folder}\n'
-    TOTAL_FILES =           '┠ <b>Files: </b>{Files}\n'
-    RCPATH =                '┠ <b>Path: </b><code>{RCpath}</code>\n'
-    M_CC =                  '┖ <b>By: </b>{Tag}\n\n'
-    M_BOT_MSG =             '➲ <b><i>Link(s) have been Sent to Bot PM (Private)</i></b>'
+    M_TYPE =                '┠<b>📜 Type: </b>{Mimetype}\n'
+    M_SUBFOLD =             '┠<b>🗂️ SubFolders: </b>{Folder}\n'
+    TOTAL_FILES =           '┠<b>📂 Files: </b>{Files}\n'
+    RCPATH =                '┠<b>🚩 Path: </b><code>{RCpath}</code>\n'
+    M_CC =                  '┗<b>👤 User: </b>{Tag}\n\n'
+    M_BOT_MSG =             '🔒 <b><i>Link(s) have been Sent to Bot PM (Private)</i></b>'
     # ----- BUTTONS -------
     CLOUD_LINK =      '☁️ Cloud Link'
     SAVE_MSG =        '📨 Save Message'
