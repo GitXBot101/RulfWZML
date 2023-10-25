@@ -125,17 +125,19 @@ class WZMLStyle:
 
     # async def onDownloadStart(self): --> tasks_listener.py
     LINKS_START = """<b>Task Started...⛓️</b>
-  ┠ <b>💠 Mode:</b> {Mode}
-  ┠ <b>👤 User: </b> {Tag}\n
-  ┠ <b>⏰ Time:</b> {On} """
-LINKS_SOURCE = """┖ <b>🗿 Source:</b>
+  ┠LINKS_START = """<b>Task Started...⛓️</b>
+
+┏<b>💠 Mode:</b> {Mode}
+┗<b>👤 User:</b> {Tag}\n\n"""
+    LINKS_SOURCE = """┏<b>🗿 Source:</b>
+┗<b>⏰ Time:</b> {On}
 ------------------------------------------
 {Source}
 ------------------------------------------\n\n"""
     
     # async def __msg_to_reply(self): ---> pyrogramEngine.py
-    L_PM_START =            "🧲 <b><u>Leech Started</u> :</b>\n<b>💡 Source :</b> <a href='{msg_link}'>Click Here</a>"
-    L_LOG_START =           "🧲 <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
+    L_PM_START =            "🧲 <b><u>Leech Started</u> :</b>\n\n<b>💡 Source :</b> <a href='{msg_link}'>Click Here</a>"
+    L_LOG_START =           "🧲<b><u>Leech Started</u> :</b>\n\n┏<b>👤 User :</b> {mention}\n┠<b>🆔 ID :</b> <code>{uid}</code>\n┗<b>💡 Source :</b> <a href='{msg_link}'>Click Here</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
     NAME =                  '┏<b>🏷️ Name:</b> <code>{Name}</code>\n'
