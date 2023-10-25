@@ -58,7 +58,7 @@ class WZMLStyle:
 ┖ <b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}
     
     '''
-SYS_STATS = '''<b><i>🧩 OS SYSTEM </i></b>
+    SYS_STATS = '''<b><i>🧩 OS SYSTEM </i></b>
 ┠ <b>OS Uptime :</b> {os_uptime}
 ┠ <b>OS Version :</b> {os_version}
 ┖ <b>OS Arch :</b> {os_arch}
