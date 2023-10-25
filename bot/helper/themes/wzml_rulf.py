@@ -246,56 +246,57 @@ SYS_STATS = '''<b><i>🧩 OS SYSTEM </i></b>
     # ---------------------
 
     # async def mirror_status(_, message): ----> status.py
-    NO_ACTIVE_DL = '''<i>No Active Downloads!</i>
+    NO_ACTIVE_DL = '''<i>No Active Downloads! 🗑️</i>
     
 ⌬ <b><i>Bot Stats</i></b>
-┠ <b>CPU:</b> {cpu}% | <b>F:</b> {free} [{free_p}%]
-┖ <b>RAM:</b> {ram} | <b>UPTIME:</b> {uptime}
+┠ <b>🖥️ CPU:</b> {cpu}% | <b>💿 FREE:</b> {free} [{free_p}%]
+┖ <b>🎮 RAM:</b> {ram} | <b>🚀 UPTIME:</b> {uptime}
     '''
     # ---------------------
 
     # USER Setting --> user_setting.py 
-    USER_SETTING = '''㊂ <b><u>User Settings :</u></b>
+    USER_SETTING = '''🎭 <b><u>User Settings :</u></b>
         
-┎<b> Name :</b> {NAME} ( <code>{ID}</code> )
-┠<b> Username :</b> {USERNAME}
-┠<b> Telegram DC :</b> {DC}
-┖<b> Language :</b> {LANG}
+┏<b>👤 Name :</b> {NAME}
+┠<b>🔖 Username :</b> {USERNAME}
+┠<b>🆔 ID :</b> <code>{ID}</code>
+┠<b>🔮 DC :</b> <code>{DC}</code>
+┗<b>🗣️ Language :</b> <code>{LANG}</code>
 
 ➲ <u><b>Available Args:</b></u>
 • <b>-s</b> or <b>-set</b>: Set Directly via Arg'''
 
-    UNIVERSAL = '''㊂ <b><u>Universal Settings : {NAME}</u></b>
+    UNIVERSAL = '''🌐 <b><u>Universal Settings : {NAME}</u></b>
 
-┎<b> YT-DLP Options :</b> <b><code>{YT}</code></b>
-┠<b> Daily Tasks :</b> <code>{DT}</code> per day
-┠<b> Last Bot Used :</b> <code>{LAST_USED}</code>
-┠<b> User Session :</b> <code>{USESS}</code>
-┠<b> MediaInfo Mode :</b> <code>{MEDIAINFO}</code>
-┠<b> Save Mode :</b> <code>{SAVE_MODE}</code>
-┖<b> User Bot PM :</b> <code>{BOT_PM}</code>'''
+┎<b>📺 YT-DLP Options :</b> <b><code>{YT}</code></b>
+┠<b>🚧 Daily Tasks :</b> <code>{DT}</code> per day
+┠<b>🚦 Last Used :</b> <code>{LAST_USED}</code>
+┠<b>🛸U.Session :</b> <code>{USESS}</code>
+┠<b>📜 MediaInfo :</b> <code>{MEDIAINFO}</code>
+┠<b>📩 Save Mode :</b> <code>{SAVE_MODE}</code>
+┖<b>🕵️ Bot PM :</b> <code>{BOT_PM}</code>'''
 
-    MIRROR = '''㊂ <b><u>Mirror/Clone Settings : {NAME}</u></b>
+    MIRROR = '''⚜️ <b><u>Mirror/Clone Settings : {NAME}</u></b>
 
-┎<b> RClone Config :</b> <i>{RCLONE}</i>
-┠<b> Mirror Prefix :</b> <code>{MPREFIX}</code>
-┠<b> Mirror Suffix :</b> <code>{MSUFFIX}</code>
-┠<b> Mirror Remname :</b> <code>{MREMNAME}</code>
-┠<b> DDL Server(s) :</b> <i>{DDL_SERVER}</i>
-┠<b> User TD Mode :</b> <i>{TMODE}</i>
-┠<b> Total User TD(s) :</b> <i>{USERTD}</i>
-┖<b> Daily Mirror :</b> <code>{DM}</code> per day'''
+┏<b>☁️ Daily Mirror :</b> <code>{DM}</code> per day</i>
+┠<b>Ⓟ Prefix :</b> <code>{MPREFIX}</code>
+┠<b>Ⓢ Suffix :</b> <code>{MSUFFIX}</code>
+┠<b>🌈 Remname :</b> <code>{MREMNAME}</code>
+┠<b>🧿 DDL Server(s) :</b> <code>{DDL_SERVER}</code>
+┠<b>🎀 RClone :</b> <code>{RCLONE}</code>
+┠<b>📮 User TD :</b> <code>{TMODE}</code>
+┗<b>📝 TD Info:</b> <code>{USERTD}</code>'''
 
-    LEECH = '''㊂ <b><u>Leech Settings for {NAME}</u></b>
+    LEECH = '''🧲 <b><u>Leech Settings for {NAME}</u></b>
 
-┎<b> Daily Leech : </b><code>{DL}</code> per day
-┠<b> Leech Type :</b> <i>{LTYPE}</i>
-┠<b> Custom Thumbnail :</b> <i>{THUMB}</i>
-┠<b> Leech Split Size :</b> <code>{SPLIT_SIZE}</code>
-┠<b> Equal Splits :</b> <i>{EQUAL_SPLIT}</i>
-┠<b> Media Group :</b> <i>{MEDIA_GROUP}</i>
-┠<b> Leech Caption :</b> <code>{LCAPTION}</code>
-┠<b> Leech Prefix :</b> <code>{LPREFIX}</code>
-┠<b> Leech Suffix :</b> <code>{LSUFFIX}</code>
-┠<b> Leech Dumps :</b> <code>{LDUMP}</code>
-┖<b> Leech Remname :</b> <code>{LREMNAME}</code>'''
+┏<b>📂 Daily Leech  : </b><code>{DL}</code> per day
+┠<b>⚙️ Leech Type :</b> <code>{LTYPE}</code>
+┠<b>🖼️ Thumbnail :</b> <code>{THUMB}</code>
+┠<b>♈ Split Size :</b> <code>{SPLIT_SIZE}</code>
+┠<b>♐ Equal Splits :</b> <code>{EQUAL_SPLIT}</code>
+┠<b>♒ Media Group :</b> <code>{MEDIA_GROUP}</code>
+┠<b>📄 Caption :</b> <code>{LCAPTION}</code>
+┠<b>Ⓟ Prefix :</b> <code>{LPREFIX}</code>
+┠<b>Ⓢ Suffix :</b> <code>{LSUFFIX}</code>
+┠<b>📦 Dump :</b> <code>{LDUMP}</code>
+┗<b>🌈 Remname :</b> <code>{LREMNAME}</code>'''
