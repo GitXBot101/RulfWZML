@@ -214,63 +214,64 @@ class WZMLStyle:
     CANCEL =         '\n┗<b>🚫 Stop:</b> {Cancel}\n\n'
 
     ####------FOOTER--------
-    FOOTER = '⌬ <b><i>Bot Stats</i></b>\n'
-    TASKS =  '┠ <b>Tasks:</b> {Tasks}\n'
-    BOT_TASKS = '┠ <b>Tasks:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
-    Cpu = '┠ <b>CPU:</b> {cpu}% | '
-    FREE =                      '<b>F:</b> {free} [{free_p}%]'
-    Ram = '\n┠ <b>RAM:</b> {ram}% | '
-    uptime =                     '<b>UPTIME:</b> {uptime}'
-    DL = '\n┖ <b>DL:</b> {DL}/s | '
-    UL =                        '<b>UL:</b> {UL}/s'
+    FOOTER = '♦️ <b><u>BOT STATS.....</u></b>\n'
+    TASKS =  ''┏<b>⌛ Tasks:</b> {Tasks}\n'
+    BOT_TASKS = '┏<b>⏳ Tasks:</b> {Tasks}/{Ttask} | <b>⚰️ AVL:</b> {Free}\n'
+    Cpu = '┏<b>🖥️ CPU:</b> {cpu}% | '
+    FREE =                      '<b>💿 F:</b> {free} [{free_p}%]'
+    Ram = '\n┠<b>🎮 RAM:</b> {ram}% | '
+    uptime =                     '<b>🚀 UP:</b> {uptime}'
+    DL = '\n┗<b>🔻 DL:</b> {DL}/s | '
+    UL =                        '<b>🔺 UL:</b> {UL}/s'
 
     ###--------BUTTONS-------
     PREVIOUS = '⫷'
-    REFRESH = 'ᴘᴀɢᴇs\n{Page}'
+    REFRESH = '📑 Page: {Page}'
     NEXT = '⫸'
     # ---------------------
 
     #STOP_DUPLICATE_MSG: ---> clone.py, aria2_listener.py, task_manager.py
-    STOP_DUPLICATE = 'File/Folder is already available in Drive.\nHere are {content} list results:'
+    STOP_DUPLICATE = '<b>🏷️ Name:</b> <code>{content}</code>\n<b>⚠️ This File/Folder is already available in Drive!</b>\n\n<b>📑 List Results:</b>'
     # ---------------------
 
     # async def countNode(_, message): ----> gd_count.py
-    COUNT_MSG = '<b>Counting:</b> <code>{LINK}</code>'
-    COUNT_NAME = '<b><i>{COUNT_NAME}</i></b>\n┃\n'
-    COUNT_SIZE = '┠ <b>Size: </b>{COUNT_SIZE}\n'
-    COUNT_TYPE = '┠ <b>Type: </b>{COUNT_TYPE}\n'
-    COUNT_SUB =  '┠ <b>SubFolders: </b>{COUNT_SUB}\n'
-    COUNT_FILE = '┠ <b>Files: </b>{COUNT_FILE}\n'
-    COUNT_CC =   '┖ <b>By: </b>{COUNT_CC}\n'
+    COUNT_MSG = '<b>🎲 Counting:</b> <code>{LINK}</code>\n\n<b>⏳ Please Wait...</b>'
+    COUNT_NAME = '┏<b>🏷️ Name:</b> <code>{COUNT_NAME}</code>\n'
+    COUNT_SIZE = '┠<b>💾 Size: </b>{COUNT_SIZE}\n'
+    COUNT_TYPE = '┠<b>📜 Type: </b>{COUNT_TYPE}\n'
+    COUNT_SUB =  '┠<b>🗂️ SubFolders: </b>{COUNT_SUB}\n'
+    COUNT_FILE = '┠<b>📂 Files: </b>{COUNT_FILE}\n'
+    COUNT_CC =   '┗<b>👤 User: </b>{COUNT_CC}\n
     # ---------------------
 
     # LIST ---> gd_list.py
-    LIST_SEARCHING = '<b>Searching for <i>{NAME}</i></b>'
-    LIST_FOUND = '<b>Found {NO} result for <i>{NAME}</i></b>'
-    LIST_NOT_FOUND = 'No result found for <i>{NAME}</i>'
+    LIST_SEARCHING = '<b>🔍 Searching:</b> <code>{NAME}</code>'
+    LIST_FOUND = '<b>ℹ️ Found {NO} Results For</b> <code>{NAME}</code>'
+    LIST_NOT_FOUND = '<b>☹️ No Results Found For</b> <code>{NAME}</code>'
     # ---------------------
 
     # async def mirror_status(_, message): ----> status.py
-    NO_ACTIVE_DL = '''<i>No Active Downloads!</i>
+    NO_ACTIVE_DL = '''No Active Downloads !\n___________________________
     
-⌬ <b><i>Bot Stats</i></b>
-┠ <b>CPU:</b> {cpu}% | <b>F:</b> {free} [{free_p}%]
-┖ <b>RAM:</b> {ram} | <b>UPTIME:</b> {uptime}
+♦️ <b>BOT STATS___________________________ </b>\n
+┠<b>🖥️ CPU:</b> {cpu}% | <b>💿 F:</b> {free} [{free_p}%]
+┖<b>🎮 RAM:</b> {ram} | <b>🚀 UPTIME:</b> {uptime}
     '''
     # ---------------------
 
     # USER Setting --> user_setting.py 
-    USER_SETTING = '''㊂ <b><u>User Settings :</u></b>
+    USER_SETTING = '''👽 <b><u>User Settings :</u></b>
         
-┎<b> Name :</b> {NAME} ( <code>{ID}</code> )
-┠<b> Username :</b> {USERNAME}
-┠<b> Telegram DC :</b> {DC}
-┖<b> Language :</b> {LANG}
+┏<b>👤 Name :</b> {NAME}
+┠<b>🔖 Username :</b> {USERNAME}
+┠<b>🆔 ID :</b> <code>{ID}</code>
+┠<b>🔮 DC :</b> <code>{DC}</code>
+┗<b>🗣️ Language :</b> <code>{LANG}</code>
 
-➲ <u><b>Available Args:</b></u>
+🗳️ <u><b>Available Args:</b></u>
 • <b>-s</b> or <b>-set</b>: Set Directly via Arg'''
 
-    UNIVERSAL = '''㊂ <b><u>Universal Settings : {NAME}</u></b>
+    UNIVERSAL = '''🌐 <b><u>Universal Settings : {NAME}</u></b>
 
 ┎<b> YT-DLP Options :</b> <b><code>{YT}</code></b>
 ┠<b> Daily Tasks :</b> <code>{DT}</code> per day
@@ -280,7 +281,7 @@ class WZMLStyle:
 ┠<b> Save Mode :</b> <code>{SAVE_MODE}</code>
 ┖<b> User Bot PM :</b> <code>{BOT_PM}</code>'''
 
-    MIRROR = '''㊂ <b><u>Mirror/Clone Settings : {NAME}</u></b>
+    MIRROR = '''🏅 <b><u>Mirror/Clone Settings : {NAME}</u></b>
 
 ┎<b> RClone Config :</b> <i>{RCLONE}</i>
 ┠<b> Mirror Prefix :</b> <code>{MPREFIX}</code>
@@ -291,7 +292,7 @@ class WZMLStyle:
 ┠<b> Total User TD(s) :</b> <i>{USERTD}</i>
 ┖<b> Daily Mirror :</b> <code>{DM}</code> per day'''
 
-    LEECH = '''㊂ <b><u>Leech Settings for {NAME}</u></b>
+    LEECH = '''🧲 <b><u>Leech Settings for {NAME}</u></b>
 
 ┎<b> Daily Leech : </b><code>{DL}</code> per day
 ┠<b> Leech Type :</b> <i>{LTYPE}</i>
