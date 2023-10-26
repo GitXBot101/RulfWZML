@@ -215,7 +215,7 @@ class WZMLStyle:
 
     ####------FOOTER--------
     FOOTER = '♦️ <b><u>BOT STATS.....</u></b>\n'
-    TASKS =  ''┏<b>⌛ Tasks:</b> {Tasks}\n'
+    TASKS =  '┏<b>⌛ Tasks:</b> {Tasks}\n'
     BOT_TASKS = '┏<b>⏳ Tasks:</b> {Tasks}/{Ttask} | <b>⚰️ AVL:</b> {Free}\n'
     Cpu = '┏<b>🖥️ CPU:</b> {cpu}% | '
     FREE =                      '<b>💿 F:</b> {free} [{free_p}%]'
