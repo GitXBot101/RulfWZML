@@ -241,7 +241,7 @@ class WZMLStyle:
     COUNT_TYPE = '┠<b>📜 Type: </b>{COUNT_TYPE}\n'
     COUNT_SUB =  '┠<b>🗂️ SubFolders: </b>{COUNT_SUB}\n'
     COUNT_FILE = '┠<b>📂 Files: </b>{COUNT_FILE}\n'
-    COUNT_CC =   '┗<b>👤 User: </b>{COUNT_CC}\n
+    COUNT_CC =   '┗<b>👤 User: </b>{COUNT_CC}\n'
     # ---------------------
 
     # LIST ---> gd_list.py
