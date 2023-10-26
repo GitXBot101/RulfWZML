@@ -177,7 +177,7 @@ class WZMLStyle:
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┃ {Bar}'
     PROCESSED =         '\n┠<b>🚦 Process:</b> {Processed}'
-    STATUS =            '\n┠<b>✨ Status:</b> <a href="{Url}">{Status}</a>'
+    STATUS =            '\n┠<b>🪬 Status:</b> <a href="{Url}">{Status}</a>'
     ETA =                                                ' | <b>ETA:</b> {Eta}'
     SPEED =             '\n┠<b>⚡ Speed:</b> {Speed}'
     ELAPSED =                                     ' | <b>Elapsed:</b> {Elapsed}'
@@ -244,7 +244,7 @@ class WZMLStyle:
     # async def mirror_status(_, message): ----> status.py
     NO_ACTIVE_DL = '''No Active Downloads ! 🗑️
     
-⌬ <b>BOT STATS.......</b>\n
+⌬ <u><b>BOT STATS.......</b></u>
 ┠<b>🖥️ CPU:</b> {cpu}% | <b>💿 F:</b> {free}
 ┖<b>🎮 RAM:</b> {ram} | <b>🚀 UPTIME:</b> {uptime}
     '''
