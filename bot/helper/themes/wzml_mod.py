@@ -116,15 +116,6 @@ class WZMLStyle:
     # ---------------------
 
     # async def ping(client, message): ---> __main__.py
-    RESTART_SUCCESS = '''<b><i>Restarted Successfully ✅</i></b>
-┠ <b>📅 Date:</b> {date}
-┠ <b>⌚ Time:</b> {time}
-┠ <b>🌍 TimeZone:</b> {timz}
-┖ <b>🆔 Version:</b> {version}'''
-    RESTARTED = '''<b><i>Bot Restarted! ✅</i></b>'''
-    # ---------------------
-
-    # async def ping(client, message): ---> __main__.py
     PING = '<i>Starting Ping...🌋</i>'
     PING_VALUE = '<b>🎯 Pɪɴɢ: </b><code>{value} ms..</code>'
     # ---------------------
@@ -141,7 +132,7 @@ class WZMLStyle:
     
     # async def __msg_to_reply(self): ---> pyrogramEngine.py
     PM_START =            "🧲 <b><u>Task Started :</u></b>\n┖ <b>🏷️ Link:</b> <a href='{msg_link}'>Click Here</a>"
-    L_LOG_START =           "🧲 <b><u>Leech Started :</u></b>\n┠ <b>👤 User :</b> {mention} ( #ID{uid} )\n┖ <b>💡 Source :</b> <a href='{msg_link}'>Click Here</a>"
+    L_LOG_START =           "🧲 <b><u>Leech Started :</u></b>\n┠ <b> User :</b> {mention} ( #ID{uid} )\n┖ <b> Source :</b> <a href='{msg_link}'>Click Here</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
     NAME =                  '┏<b>🏷️ Name:</b> <code>{Name}</code>\n'
@@ -185,10 +176,10 @@ class WZMLStyle:
     
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┃ {Bar}'
-    PROCESSED =         '\n┠<b>♟️ Process:</b> {Processed}'
+    PROCESSED =         '\n┠<b>🚦 Process:</b> {Processed}'
     STATUS =            '\n┠<b>✨ Status:</b> <a href="{Url}">{Status}</a>'
     ETA =                                                ' | <b>ETA:</b> {Eta}'
-    SPEED =             '\n┠<b>📶 Speed:</b> {Speed}'
+    SPEED =             '\n┠<b>⚡ Speed:</b> {Speed}'
     ELAPSED =                                     ' | <b>Elapsed:</b> {Elapsed}'
     ENGINE =            '\n┠<b>⚙️ Engine:</b> {Engine}'
     STA_MODE =          '\n┠<b>🎭 Mode:</b> {Mode}'
@@ -214,11 +205,11 @@ class WZMLStyle:
     CANCEL =         '\n┗<b>🚫 Stop:</b> {Cancel}\n\n'
 
     ####------FOOTER--------
-    FOOTER = '♦️ <b><u>BOT STATS.....</u></b>\n'
-    TASKS =  '┏<b>⌛ Tasks:</b> {Tasks}\n'
-    BOT_TASKS = '┏<b>⏳ Tasks:</b> {Tasks}/{Ttask} | <b>⚰️ AVL:</b> {Free}\n'
-    Cpu = '┏<b>🖥️ CPU:</b> {cpu}% | '
-    FREE =                      '<b>💿 F:</b> {free} [{free_p}%]'
+    FOOTER = '⌬ <b><u>BOT STATS.....</u></b>\n'
+    TASKS =  '┠<b>⌛ Tasks:</b> {Tasks}\n'
+    BOT_TASKS = '┠<b>⏳ Tasks:</b> {Tasks}/{Ttask} | <b>⚰️ AVL:</b> {Free}\n'
+    Cpu = '┠<b>🖥️ CPU:</b> {cpu}% | '
+    FREE =                      '<b>💿 F:</b> {free}'
     Ram = '\n┠<b>🎮 RAM:</b> {ram}% | '
     uptime =                     '<b>🚀 UP:</b> {uptime}'
     DL = '\n┗<b>🔻 DL:</b> {DL}/s | '
@@ -251,10 +242,10 @@ class WZMLStyle:
     # ---------------------
 
     # async def mirror_status(_, message): ----> status.py
-    NO_ACTIVE_DL = '''No Active Downloads !\n___________________________
+    NO_ACTIVE_DL = '''No Active Downloads ! 🗑️
     
-♦️ <b>BOT STATS___________________________ </b>\n
-┠<b>🖥️ CPU:</b> {cpu}% | <b>💿 F:</b> {free} [{free_p}%]
+⌬ <b>BOT STATS.......</b>\n
+┠<b>🖥️ CPU:</b> {cpu}% | <b>💿 F:</b> {free}
 ┖<b>🎮 RAM:</b> {ram} | <b>🚀 UPTIME:</b> {uptime}
     '''
     # ---------------------
